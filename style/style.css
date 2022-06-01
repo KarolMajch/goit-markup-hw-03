@@ -175,7 +175,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.02em;
 }
-.list-style address {
+.list-style .address {
   list-style: none;
   color: var(--brand-color);
   display: flex;
@@ -185,6 +185,9 @@ body {
 .adress{
   display: flex;
   align-items: center;
+}
+.list-link:not(:last-child){
+  margin-right: 46px;
 }
 
 .adress .button:hover {
