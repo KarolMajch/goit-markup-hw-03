@@ -9,9 +9,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header .container{
+.header .container {
   display: flex;
 }
+
 .header-logo {
   font-family: Raleway;
   font-style: normal;
