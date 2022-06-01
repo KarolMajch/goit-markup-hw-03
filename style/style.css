@@ -1,0 +1,229 @@
+:root {
+  --brand-color: #212121(--brand-color);
+  --background-color: #2196f3;
+}
+
+body {
+  color: var(--brand-color);
+  background-color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.header-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+  line-height: 1.19em;
+  text-decoration-line: none
+}
+.header-logo >span {
+  color:black;
+}
+
+.post-title {
+  font-size: 14px;
+  font-style: bold;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align : center;
+  list-style : none;
+}
+
+.post-lorem {
+  font-size: 14px;
+  line-height: 2;
+  color: #757575;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration-line: none;
+  color: var(--brand-color);
+}
+.link:hover {
+  color: var(--background-color);
+}
+.link:focus {
+  color: var(--background-color);
+}
+
+.phone {
+  text-decoration-line: none;
+  color: var(--brand-color);
+}
+
+.phone:hover {
+  color: var(--background-color);
+}
+
+.section1 {
+  background-color: #2f303a;
+}
+
+.button-order {
+  background-color: var(--background-color);
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.title1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.title2 {
+  text-align: center;
+  font-size: 36px;
+  font-style: bold;
+  color: var(--brand-color);
+  text-align: top;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+}
+
+.personal-date {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.job-position {
+  color: #757575;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.social-button {
+  list-style: none;
+}
+
+.social-button button {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+  list-style: none;
+}
+
+.social-button .button:hover {
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+
+.button {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+  line-height: 1.625;
+  border: 0px;
+}
+
+.photo-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--brand-color);
+  letter-spacing: 0.06em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.photo-services {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.list-style .photo {
+  list-style: none;
+}
+.link {
+  color: var(--brand-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.list-style address {
+  list-style: none;
+  color: var(--brand-color);
+}
+
+.adress .button:hover {
+  background-color: var(--background-color);
+}
+
+.photo {
+  width: 370;
+  height: 404;
+}
+.list-style {
+  list-style-type: none;
+}
+
+.footer {
+  background-color: #2f303a;
+  color: #ffffff;
+  font-style: normal;
+  padding: 60px 0;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  line-height: 1.19;
+  text-decoration-line: none;
+}
+
+.footer-logo > span {
+  color: #2196f3;
+}
+
+.footer-adres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footer-mail {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-mail:hover {
+  color: var(--background-color);
+}
+
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration-line: none;
+}
+.footer-phone:hover {
+  color: var(--background-color);
+}
+
