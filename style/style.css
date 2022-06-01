@@ -11,6 +11,11 @@ body {
 
 .header .container {
   display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
 }
 
 .header-logo {
