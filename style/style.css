@@ -214,20 +214,19 @@ body {
   color: #ffffff;
 }
 
-.footer-mail {
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer-mail:hover {
-  color: var(--background-color);
-}
-
+.footer-mail,
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration-line: none;
+  text-decoration: none;
 }
+
+.footer-mail:hover,
 .footer-phone:hover {
   color: var(--background-color);
 }
+
+
+
 
 h1
 h2
@@ -236,7 +235,6 @@ h4
 h5
 h6 {
   margin: 0;
-  padding: 0;
 }
 
 ul
@@ -247,4 +245,13 @@ li {
 
 p {
   padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+   width: 1200px;
+   padding: 0 15px;
 }
