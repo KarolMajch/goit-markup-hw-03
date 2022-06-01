@@ -26,8 +26,10 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-color);
   line-height: 1.19em;
-  text-decoration-line: none
+  text-decoration-line: none;
+  margin: 24px 93px 24px 115px;
 }
+
 .header-logo >span {
   color:black;
 }
@@ -176,6 +178,13 @@ body {
 .list-style address {
   list-style: none;
   color: var(--brand-color);
+  display: flex;
+  align-items: center;
+}
+
+.adress{
+  display: flex;
+  align-items: center;
 }
 
 .adress .button:hover {
