@@ -66,12 +66,8 @@ body {
   color: var(--background-color);
 }
 
+.header-mail,
 .header-phone {
-  text-decoration-line: none;
-  color:#757575;
-}
-
-.header-mail{
   cursor: pointer;
   text-decoration: none;
   color: #757575;
