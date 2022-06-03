@@ -25,7 +25,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--background-color);
-  line-height: 1.19em;
+  line-height: 1.19;
   text-decoration-line: none;
   margin: 24px 93px 24px 115px;
 }
@@ -58,16 +58,23 @@ body {
 }
 
 .link:hover,
-.phone:hover {
+.header-phone:hover,
+.header-mail:hover {
   color: var(--background-color);
 }
 .link:focus {
   color: var(--background-color);
 }
 
-.phone {
+.header-phone {
   text-decoration-line: none;
-  color: var(--brand-color);
+  color:#757575;
+}
+
+.header-mail{
+  cursor: pointer;
+  text-decoration: none;
+  color: #757575;
 }
 
 .section1 {
@@ -82,12 +89,14 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .title1 {
   color: white;
   text-align: center;
   text-transform: uppercase;
+  font-size: 44px;
 }
 
 .title2 {
@@ -134,6 +143,7 @@ body {
 .social-button .button:hover {
   background-color: var(--background-color);
   cursor: pointer;
+  color: #ffffff;
 }
 
 .button {
