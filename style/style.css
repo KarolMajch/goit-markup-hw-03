@@ -267,6 +267,11 @@ body {
 
 .section6 .list-style {
   display: flex;
+
+}
+
+.photo:first-child{
+  margin-left: 0px;
 }
 
 .photo-name {
