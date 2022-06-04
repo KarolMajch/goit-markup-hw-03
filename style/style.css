@@ -111,7 +111,7 @@ body {
   margin: 30px 600px 200px;
 }
 
-.title2 {
+.title4 {
   text-align: center;
   font-size: 36px;
   font-style: bold;
@@ -120,7 +120,6 @@ body {
   letter-spacing: 0.03em;
   font-weight: 700;
   padding-top: 94px;
-  padding-bottom: 50px;
 }
 
 .section3{
@@ -144,16 +143,12 @@ body {
 .section4 .list-style {
   display: flex;
 }
-.section4 .our-team {
-  padding-top: 50px;
-}
 
 .our-team {
   width: 270px;
   height: 368px;
   border-radius: 4px;
   margin-bottom: 94px;
-  align-items: center;
 }
 
 .personal-date {
