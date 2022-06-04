@@ -9,6 +9,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.header {
+  border-bottom: 0.001px dotted #757575;
+}
 .header .container {
   display: flex;
   align-items: center;
@@ -46,7 +49,7 @@ body {
 
 .post-lorem {
   font-size: 14px;
-  line-height: 2;
+  line-height: 1.71;
   color: #757575;
   letter-spacing: 0.03em;
   text-align: justify;
