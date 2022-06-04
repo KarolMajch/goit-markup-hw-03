@@ -147,7 +147,9 @@ body {
 .section4 .list-style {
   display: flex;
 }
-
+.section4 .our-team {
+  padding-top: 50px;
+}
 
 .personal-date {
   font-size: 16px;
