@@ -3,6 +3,10 @@
   --background-color: #2196f3;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   color: var(--brand-color);
   background-color: white;
@@ -146,6 +150,10 @@ body {
 .section4 .list-style {
   display: flex;
 }
+.section4{
+ background-color:  #F5F4FA;
+
+}
 
 .our-team {
   width: 270px;
@@ -172,6 +180,9 @@ body {
 
 .social-button {
   list-style: none;
+}
+.section5 .social-button {
+  display: flex;
 }
 
 .social-button button {
@@ -201,6 +212,10 @@ body {
   border: 0px;
   padding:8px 28px 6px 28px ;
   border-radius: 4px;
+}
+
+.section6 .list-style {
+  display: flex;
 }
 
 .photo-name {
