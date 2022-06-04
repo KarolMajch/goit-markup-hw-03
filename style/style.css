@@ -121,6 +121,13 @@ body {
   font-weight: 700;
 }
 
+.section2 .container{
+  display: flex;
+}
+.section2 .list-style {
+  display: flex;
+}
+
 .personal-date {
   font-size: 16px;
   font-weight: 500;
