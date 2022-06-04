@@ -124,9 +124,9 @@ body {
   font-weight: 700;
 }
 
-
 .section2 .list-style {
   display: flex;
+  margin-top: 94px;
 }
 
 .personal-date {
