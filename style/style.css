@@ -194,8 +194,11 @@ body {
   height: 368px;
   border-radius: 4px;
   background-color: #ffffff;
-  margin-inline-start: 30px;
-  margin-inline-end: 0px;
+  margin-right: 30px;
+}
+
+.our-team:first-child {
+  margin-left: 0px
 }
 
 .personal-date {
