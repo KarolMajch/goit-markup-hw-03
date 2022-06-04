@@ -122,6 +122,8 @@ body {
   text-align: top;
   letter-spacing: 0.03em;
   font-weight: 700;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 
 .section3{
@@ -140,6 +142,10 @@ body {
 .section3 .image {
   margin-left: 15px;
   margin-right: 15px;
+}
+
+.section4 .list-style {
+  display: flex;
 }
 
 
