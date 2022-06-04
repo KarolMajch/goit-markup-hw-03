@@ -72,11 +72,11 @@ body {
   text-decoration: none;
   color: #757575;
 }
-.list-style .header-phone {
+.header .header-phone {
   margin-left: 50px;
   margin-right: auto;
 }
-.list-style .header-mail{
+.header .header-mail{
   margin-left: 160px;
 }
 
