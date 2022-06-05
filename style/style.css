@@ -267,11 +267,22 @@ body {
 
 .section6 .list-style {
   display: flex;
-
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 0px;
 }
 
-.photo:first-child{
-  margin-left: 0px;
+.section6{
+  max-width: 1200px;
+  max-height: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.photo {
+  flex-basis: calc((100%-5px)/3);
+  align-content: center;
+  padding: 15px;
 }
 
 .photo-name {
@@ -298,8 +309,6 @@ body {
 .list-style .photo {
   list-style: none;
   border-bottom:1px dotted #EEEEEE;
-  width: 370px;
-  height: 404px;
 }
 
 .link {
@@ -331,21 +340,17 @@ body {
   background-color: var(--background-color);
 }
 
-.photo {
-  width: 370;
-  height: 404;
-}
-
 .list-style {
   list-style-type: none;
 }
+
 
 .footer {
   background-color: #2f303a;
   color: #ffffff;
   font-style: normal;
   padding: 60px 0;
-  width: 1200px;
+  max-width: 1200px;
 }
 
 .footer-logo {
@@ -402,9 +407,6 @@ p {
   padding: 0;
 }
 
-img {
-  display: inline-block;
-}
 
 .container {
   width: 1200px;
