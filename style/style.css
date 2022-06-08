@@ -37,7 +37,7 @@ body {
   color: var(--brand-color);
   line-height: 1.19;
   text-decoration-line: none;
-  padding: 24px 93px 24px 115px;
+  padding: 24px 93px 24px 0px;
 }
 
 .header-logo>span {
