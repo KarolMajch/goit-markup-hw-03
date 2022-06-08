@@ -264,7 +264,7 @@ body {
 .section6 .list-style {
   display: flex;
   flex-wrap: wrap;
-  gap: 28px;
+  gap: 30px;
   padding: 0px;
 }
 
@@ -303,9 +303,9 @@ body {
   line-height: 2;
 }
 .signature {
-  border-bottom: 1px dotted #EEEEEE;
-  border-right: 1px dotted #EEEEEE;
-  border-left: 1px dotted #EEEEEE;
+  border-bottom: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
 }
 .list-style .photo {
   list-style: none;
