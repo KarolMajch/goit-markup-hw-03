@@ -44,6 +44,10 @@ body {
   color: var(--background-color);
 }
 
+.block-lorem {
+  margin-right: 30px;
+}
+
 .post-title {
   font-size: 14px;
   font-style: 700;
@@ -51,7 +55,7 @@ body {
   text-transform: uppercase;
   text-align: left;
   list-style: none;
-  padding: 0px 30px;
+  padding-right: 30px;
   margin-top: 94px;
 }
 
@@ -61,7 +65,6 @@ body {
   color: #757575;
   letter-spacing: 0.03em;
   text-align: justify;
-  padding: 10px 30px;
 }
 
 .link {
@@ -343,7 +346,7 @@ body {
   color: #ffffff;
   font-style: normal;
   padding: 60px 0;
-  max-width: 1200px;
+  list-style-type: none;
 }
 
 .footer-logo {
