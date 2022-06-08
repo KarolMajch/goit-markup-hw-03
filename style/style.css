@@ -302,11 +302,13 @@ body {
   padding: 0px 24px 20px;
   line-height: 2;
 }
-
-.list-style .photo {
-  list-style: none;
+.signature {
   border-bottom: 1px dotted #EEEEEE;
   border-right: 1px dotted #EEEEEE;
+  border-left: 1px dotted #EEEEEE;
+}
+.list-style .photo {
+  list-style: none;
   margin: 0px;
 }
 
