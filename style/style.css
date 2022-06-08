@@ -85,20 +85,17 @@ body {
   cursor: pointer;
   text-decoration: none;
   color: #757575;
+  padding-right: 25px;
 }
 
 .header .header-phone {
-  margin-left: 50px;
+  margin-left: auto;
   margin-right: auto;
 }
 
-.header .header-mail {
-  margin-left: 160px;
-}
 
 .section1 {
   background-color: #2f303a;
-  width: 1200px;
   height: 600px;
   text-align: center;
 }
@@ -325,6 +322,7 @@ body {
 .adress {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .list-link:not(:last-child) {
