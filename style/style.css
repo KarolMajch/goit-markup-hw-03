@@ -36,6 +36,13 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
+
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*   heeder */
@@ -100,10 +107,11 @@ body {
 }
 
 /* efective solution with button  */
-.section1 {
+.segments1 {
   background-color: #2f303a;
   height: 600px;
   text-align: center;
+  display: flex;
 }
 
 .title1 {
@@ -111,7 +119,6 @@ body {
   align-items: center;
   text-transform: uppercase;
   font-size: 44px;
-  padding-top: 200px;
   padding-bottom: 30px;
   margin: 0 auto;
   max-width: 696px;
@@ -129,14 +136,13 @@ body {
   cursor: pointer;
   border-radius: 4px;
   padding: 10px 40px;
-  margin-bottom: 200px;
 }
 
 /*  post in main website */
 .block-lorem {
   margin-right: 30px;
 }
-.section2 .list-style {
+.segments2 .list-style {
   display: flex;
 }
 .post-title {
@@ -147,7 +153,6 @@ body {
   text-align: left;
   list-style: none;
   padding-right: 30px;
-  margin-top: 94px;
 }
 
 .post-lorem {
@@ -176,12 +181,8 @@ body {
   max-width: 362;
   margin-bottom: 50px;
 }
-.section3 {
-  margin-top: 94px;
-  margin-bottom: 94px;
-  
-}
-.section3 .list-style {
+
+.segments3 .list-style {
   display: flex;
   margin-top: 50px;
   justify-content: space-around;
@@ -206,13 +207,12 @@ body {
   max-width: 212px;
 }
 
-.section4 .list-style {
+.segments4 .list-style {
   display: flex;
 }
 
-.section4 {
+.segments4 {
   background-color: #F5F4FA;
-  padding-bottom: 94px;
 }
 
 .our-team {
@@ -254,12 +254,8 @@ body {
   list-style: none;
   margin: 0 auto;
   max-width: 572px;
-  margin-top: 94px;
   margin-bottom: 50px;
   justify-content: center;
-}
-
-.section5 .social-button {
   display: flex;
 }
 
@@ -297,18 +293,14 @@ body {
 
 /* tab portfolio - 9 project */
 
-.section6 .list-style {
+.segments6 {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
   padding: 0px;
-}
-
-.section6 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 94px;
 }
 
 .photo {
@@ -338,6 +330,7 @@ body {
   padding: 0px 24px 20px;
   line-height: 2;
 }
+
 .signature {
   border-bottom: 1px solid #EEEEEE;
   border-right: 1px solid #EEEEEE;
